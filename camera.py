@@ -7,7 +7,6 @@ camara = cv2.VideoCapture(0)
 WIDTH=52
 HEIGHT=52
 CAMERA_HEIGHT = 500
-RAW_FRAMES = []
 NAME_CLASSES = ['Speed limit (30km/h)', 'Speed limit (80km/h)', 'Stop', 'Vehicles heavy prohibited', 'Slippery road', 'Pedestrians', 'Bicycles crossing']
 
 model = load_model('saved_models/keras_traffic_signs_trained_model.h5')
