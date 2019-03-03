@@ -104,6 +104,8 @@ venv.bak/
 .mypy_cache/
 
 # Data
-GTSRB/
-GTSRB-Kaggle/
-ml-workshop-image-recognition/
+data/
+data.csv
+
+#vscode
+.vscode/
